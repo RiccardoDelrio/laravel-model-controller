@@ -1,5 +1,5 @@
-<nav class="navbar bg-body-tertiary">
+<nav class="navbar bg-primary ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">I miei film su Laravel</a>
+        <a class="navbar-brand text-white ms-3" href="#">I miei film su Laravel</a>
     </div>
-</nav>
+</nav>npm remove postcss
