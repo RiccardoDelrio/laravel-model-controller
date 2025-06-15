@@ -6,3 +6,34 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+// Custom star rating styles
+.star-rating {
+    .star {
+        font-size: 1.2em;
+        margin-right: 2px;
+
+        &.full {
+            color: #ffc107;
+        }
+
+        &.empty {
+            color: #dee2e6;
+        }
+
+        &.half {
+            position: relative;
+            display: inline-block;
+            color: #dee2e6;
+
+            &::before {
+                content: '★';
+                position: absolute;
+                left: 0;
+                width: 50%;
+                overflow: hidden;
+                color: #ffc107;
+            }
+        }
+    }
+}
